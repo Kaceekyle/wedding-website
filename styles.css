@@ -69,8 +69,8 @@ p {
 .btn-hero {
     padding-left: 41px;
     padding-right: 41px;
-    padding-top: 10px;
     padding-bottom: 10px;
+    padding-top: 10px;
     border-radius: 15px;
     text-decoration: none;
     color: #F1F1F1;
@@ -103,12 +103,14 @@ p {
     font-size: 8rem;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
+    margin: 0;
 }
 .hero-text p {
     font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 19px;
     color: #F1F1F1;
+    margin: 5rem;
 }
 /* Love Journey */
 
@@ -390,4 +392,38 @@ input[type="email"] {
 
 
 
-/* Mobile */
+/* Media Queries*/
+
+
+@media (max-width: 440px) {
+    h1 {
+        font-size: 6.7rem;
+    }
+    h2 {
+        font-size: 4.6rem;
+    }
+    .navbar .logo img {
+
+    }
+    .hero {
+        background: url(images/hero_mobile.jpg) no-repeat center/cover;
+        height: auto;
+        padding: ;
+    }
+    .hero-text h1 {
+        font-size: 6.2rem;
+    }
+    .love-journey-container {
+        flex-direction: column;
+    }
+    .love-journey-left {
+        width: 100%;
+    }
+    .love-journey-right {
+        width: 100%;
+    }
+    .journey-image {
+        width: 100%;
+        height: auto;
+    }
+}
