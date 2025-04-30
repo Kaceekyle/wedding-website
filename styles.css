@@ -402,13 +402,9 @@ input[type="email"] {
     h2 {
         font-size: 4.6rem;
     }
-    .navbar .logo img {
-
-    }
     .hero {
         background: url(images/hero_mobile.jpg) no-repeat center/cover;
         height: auto;
-        padding: ;
     }
     .hero-text h1 {
         font-size: 6.2rem;
