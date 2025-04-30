@@ -9,8 +9,8 @@ dark green: #414E3E
 
 */
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 a {
     text-decoration: none;
@@ -20,7 +20,6 @@ body, html {
     padding: 0;
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
 }
 h2 {
     font-family: 'Playfair Display';
@@ -53,11 +52,11 @@ p {
     left: 0;
     padding-left: 5vw;
     padding-right: 5vw;
+    padding-top: 45px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: transparent;
-    padding-top: 45px;
 }
 .nav-links {
     list-style: none;
@@ -68,15 +67,15 @@ p {
     display: inline;
 }
 .btn-hero {
-    padding-left: 4.1rem;
-    padding-right: 3.1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-left: 41px;
+    padding-right: 41px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 15px;
     text-decoration: none;
     color: #F1F1F1;
     font-size: 1.5rem;
-    letter-spacing: 19px;
+    letter-spacing: 8px;
     background-color: transparent;
     border: 2px solid #F1F1F1;
     cursor: pointer;
