@@ -2,101 +2,108 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Beauchamps</title>
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
     <header>
         <nav class="navbar">
+            <div class="logo" href=""><img src="images/tb_Logo_white.png" class="logo"/>
           <ul>
-            <li><a href=""><img src="images/tb_Logo_white.png" class="logo"/></a></li>
-            <div class="side-nav">
-              <li><a href="" class="btn-hero">RSVP</a></li>
-            </div>
+              <a href="" class="btn-hero">RSVP</a>
           </ul>
         </nav>
       </header>
-
     <main>
         <section class="hero">
             <div class="hero-text">
                 <h1>Taylor & Ben</h1>
-            </div>
-            <div class="hero-p">
                 <p>May 25, 2025</p>
                 <a href="" class="btn-hero">RSVP</a>
             </div>
         </section>
-        <section class="fifty-fifty">
-            <div class="journey-image">
+        <section class="love-journey">
+            <div class="love-journey-container">
+                <div class="love-journey-left">
                 <img src="images/half-and-half.jpg" alt="Taylor and Ben" class="journey-image"/>
-            </div>
-            <div class="journey-text">
+                </div>
+                <div class="love-journey-right">
                 <h2>LOVE IS AN EPIC JOURNEY</h2>
                 <p>
                     Taylor and Ben first crossed paths at Eastern Washington University, where Taylor was an assistant volleyball coach and Ben was an assistant basketball coach. Their shared passion for sports and coaching quickly turned into a friendship, and before long, something more. From post-practice chats to cheering each other on during game days, their bond grew stronger with every season. What started as two coaches chasing their dreams turned into a love story they never saw coming, and now, they’re so excited to celebrate the next chapter with you!
                 </p>
+                </div>
             </div>
         </section>
-        <section class="rsvp-section" id="rspv">
+        <section class="rsvp-section" id="rsvp">
             <h2>Kindley RSVP</h2>
-            <p>We can’t wait to celebrate our special day with you, and your presence means the world to us! Please let us know if you will be able to join the joy and festivities by April 25 - May, 2025</p>
-            <form class="rsvp-form">
-                <div class="form-row">
-                    <p>Name (required)</p>
-                    <input type="text" placeholder="First Name" required>
-                    <input type="text" placeholder="Last Name" required>
-                </div>
-                <input type="email" placeholder="Email" required>
-                <p>Will you be attending?</p>
-                <label><input type="radio" name="attending" required> Yes</label>
-                <label><input type="radio" name="attending"> No</label>
-                <p>Bringing a guest?</p>
-                <label><input type="radio" name="guest" required> Yes</label>
-                <label><input type="radio" name="guest"> No</label>
-                <div class="form-row">
-                    <input type="text" placeholder="Guest First Name">
-                    <input type="text" placeholder="Guest Last Name">
-                </div>
-                <input type="text" placeholder="Any food allergies?">
-                <a href="" class="btn-send">Send</a>
-            </form>
+                <p>We can’t wait to celebrate our special day with you, and your presence means the world to us! Please let us know if you will be able to join the joy and festivities by <strong>April 25 - May 10, 2025</strong></p>
+            <div class="rsvp-form-container">
+                <form class="rsvp-form">
+                    <div class="form-row">
+                        <label>Name <em>(required)</em></label>
+                        <input type="text" placeholder="First Name" required>
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+                    <label>Email <em>(required)</em></label>
+                    <input type="email" placeholder="Email" required>
+                    <label>Will you be attending? <em>(required)</em></label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="attending" required> Yes</label>
+                        <label><input type="radio" name="attending"> No</label>
+                    </div>
+                    <label>Will you be bringing a guest? <em>(required)</em></label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="guest" required> Yes</label>
+                        <label><input type="radio" name="guest"> No</label>
+                    </div>
+                    <div class="form-row">
+                        <label>Guest Name</label>
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <label>Any food alergies? <em>(required)</em></label>
+                    <input type="text" placeholder="Any food allergies?">
+                    <a href="" class="btn-send">Send</a>
+                </form>
+            </div>
         </section>
-        <section class="schedule">
-            <h3>Our Schedule</h4>
-            <div class="schedule-items">
-                <div>
-                    <img src="images/rings.png" class="rings">
-                    <h4>6:00 PM</h4>
-                    <p>Wedding ceremony in Dove Hall at Lionsgate Event Center</p>
-                </div>
-                <div>
-                    <img src="images/champagne-glass.png" class="champagne-glass">
-                    <h4>6:30 PM</h4>
-                    <p>Cocktail Hour as the wedding party takes photos</p> 
-                </div>
-                <div>
-                    <img src="images/disco-ball.png" class="disco-ball">
-                    <h4>7:30 PM</h4>
-                    <p>Start of reception followed by a night of dancing</p> 
+        <section class="schedule-section" id="schedule">
+            <div class="container">
+                <h3>Our Schedule</h3>
+                <div class="schedule-grid">
+                    <div class="schedule-item">
+                        <img src="images/rings.png" class="rings">
+                        <h4>6:00 PM</h4>
+                        <p>Wedding ceremony in Dove Hall at Lionsgate Event Center</p>
+                    </div>
+                    <div class="schedule-item">
+                        <img src="images/champagne-glass.png" class="champagne-glass">
+                        <h4>6:30 PM</h4>
+                        <p>Cocktail Hour as the wedding party takes photos</p> 
+                    </div>
+                    <div class="schedule-item">
+                        <img src="images/disco-ball.png" class="disco-ball">
+                        <h4>7:30 PM</h4>
+                        <p>Start of reception followed by a night of dancing</p> 
+                    </div>
                 </div>
             </div>
         </section>
         <section class="useful-info">
-            <div class="useful-info-text">
+            <div class="useful-info-left">
                 <h3>USEFUL INFO</h3>
                 <h5>Registry</h5>
-                <p>Your presence is the greatest gift of all . However, for those who wish to honor us with a token of love you can find our registry here.</p>
-            </div>
-            <div class="useful-info-text">
+                <p>Your presence is the greatest gift of all . However, for those who wish to honor us with a token of love you can find our registry <u>here</u>.</p>
+
                 <h5>Travel and Stay</h5>
-                <p>Navigate the journey to Lafayette Colorado with ease. Find travel tips, accommodation suggestions, and local recommendations here.</p>
-            </div>
-            <div class="useful-info-text">
+                <p>Navigate the journey to Lafayette Colorado with ease. Find travel tips, accommodation suggestions, and local recommendations <u>here</u>.</p>
+
                 <h5>FAQs</h5>
-                <p>Got questions? We’ve got answers! Check out our frequently asked questions here, or feel free to reach out to us individually. </p>
+                <p>Got questions? We’ve got answers! Check out our frequently asked questions <u>here</u>, or feel free to reach out to us individually. </p>
             </div>
-            <div class="info-img">
+            <div class="useful-info-right">
                 <img src="images/useful-info.jpg" alt="Taylor and Ben"/>
             </div>
         </section>

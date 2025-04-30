@@ -8,3 +8,276 @@ light green: #66785F
 dark green: #414E3E
 
 */
+
+a {
+    text-decoration: none;
+}
+h2 {
+    font-family: 'Playfair Display';
+    font-size: 3.5rem;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 109%;
+    color: #414E3E;
+}
+h3 {
+    font-size: 4.5rem;
+    font-weight: 100;
+    letter-spacing: .08rem;
+}
+p {
+    font-family: 'Montserrat';
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 157%;
+    color: #414E3E;
+}
+
+/* Nave and Hero*/
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+}
+.btn-hero {
+    padding-left: 4.1rem;
+    padding-right: 3.1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #F1F1F1;
+    font-size: 1.5rem;
+    letter-spacing: 19px;
+    background-color: transparent;
+    border: 2px solid #F1F1F1;
+    cursor: pointer;
+    text-align: center;
+}
+.btn-hero:hover {
+    background-color: #92ABBE;
+    color: #F1F1F1;
+}
+.hero {
+    position: static;
+    background: url(images/hero.jpg) no-repeat center/cover;
+    height: 889px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-text {
+    color: #F1F1F1;
+    line-height: 1.5rem;
+    
+}
+.hero-text h1 {
+    font-size: 8rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+.hero-text p {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 19px;
+    color: #F1F1F1;
+}
+/* Love Journey */
+
+.love-journey {
+    background-color: #F1F1F1;
+}
+.love-journey-container {
+    display: flex;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6.7rem;
+}
+.love-journey h2 {
+    margin-bottom: 2rem;
+}
+.love-journey p {
+    margin-bottom: 2.3rem;
+    font-size: 14px;
+}
+.love-journey-right {
+    width: 50%;
+}
+.love-journey-left {
+    width: 50%;
+}
+.journey-image {
+    max-width: 515px;
+    height: 610px;
+    display: block;
+}
+
+/*RSVP*/
+
+.rsvp-section {
+    background: url(images/rsvp.jpg) no-repeat center/cover;
+    padding: 8rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.rsvp-section h2 {
+    color: #F1F1F1;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+    letter-spacing: 8px;
+}
+.rsvp-section p {
+    color: #F1F1F1;
+    width: 55%;
+    margin-bottom: 6.7rem;
+    font-size: 1.2rem;
+    letter-spacing: .08rem;
+}
+.rsvp-form-container {
+    background-color: #F1F1F1;
+    padding: 8.4rem;
+    width: 60%;
+    margin-bottom: 8rem;
+}
+.rsvp-form {
+    display: flex;
+    flex-direction: column;
+    gap: 4.4rem;
+}
+.rsvp-form label {
+    font-size: 1.6rem;
+    text-align: left;
+    color: #414E3E;
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+.form-row {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.radio-group {
+    display: flex;
+    gap: 2rem;
+    justify-content: left;
+    font-family: 'Montserrat';
+    accent-color: #f1f1f1;
+}
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.8rem;
+    font-weight: 200;
+    color: #414E3E;
+    line-height: .7rem;
+}
+input:focus {
+    border-bottom: 2px solid #414E3E;
+}
+input[type="text"],
+input[type="email"] {
+    padding-top: 4.1rem;
+    padding-bottom: 4.1rem;
+    font-size: 1.4rem;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #414E3E;
+    background-color: transparent;
+    outline: none;
+    font-weight: 500;
+    color: #414E3E;
+}
+.radio-group input[type="radio"] {
+    transform: scale(2.5); /* adjust as needed */
+    margin-right: 1rem;
+    accent-color: #414E3E;
+    cursor: pointer;
+}
+.btn-send {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 41px;
+    padding-right: 41px;
+    width: 153px;
+    border: 2px solid #414E3E;
+    border-radius: 15px;
+    font-size: 2.5rem;
+    color: #414E3E;
+    text-decoration: none;
+    margin-top: 4.2rem;
+}
+.btn-send:hover {
+    background-color: #414E3E;
+    color: #F1F1F1;
+}
+
+/* Schedule */
+.schedule-section {
+    background-color: #F1F1F1;
+    padding-left: 20.8rem;
+    padding-right: 20.8rem;
+    padding-top: 13rem;
+    padding-bottom: 13.4rem;
+    text-align: center;
+}
+.schedule-section h3 {
+    font-family: 'Playfair Display';
+    font-size: 4.5rem;
+    color: #414E3E;
+    margin-bottom: 4rem;
+    font-weight: 200
+}
+
+.schedule-grid {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+.schedule-item p {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #414E3E;
+    line-height: 1.4;
+    width: 291px;
+}
+.schedule-item {
+    max-width: 291px;
+}
+.schedule-item img {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 1rem;
+}
+.schedule-item h4 {
+    font-size: 3rem;
+    font-family: 'Playfair Display';
+    color: #414E3E;
+    margin: 1.5rem 0;
+}
+
+/* Useful Info */
+
+
+
+/* Mobile */
