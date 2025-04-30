@@ -8,6 +8,9 @@ light green: #66785F
 dark green: #414E3E
 
 */
+* {
+    box-sizing: border-box;
+  }
 
 a {
     text-decoration: none;
@@ -17,6 +20,7 @@ body, html {
     padding: 0;
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 h2 {
     font-family: 'Playfair Display';
@@ -47,12 +51,21 @@ p {
     width: 100%;
     top: 0;
     left: 0;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 5vw;
+    padding-right: 5vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: transparent;
+    padding-top: 45px;
+}
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-links li {
+    display: inline;
 }
 .btn-hero {
     padding-left: 4.1rem;
@@ -105,7 +118,8 @@ p {
 }
 .love-journey-container {
     display: flex;
-    width: 1140px;
+    width: 100%;
+    max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
     padding: 6rem;
@@ -245,6 +259,7 @@ input[type="email"] {
     padding-top: 10rem;
     padding-bottom: 13.4rem;
     text-align: center;
+    width: auto;
 }
 .schedule-section h3 {
     font-family: 'Playfair Display';
@@ -257,15 +272,17 @@ input[type="email"] {
 .schedule-grid {
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    gap: 5rem;
     flex-wrap: wrap;
 }
 .schedule-item p {
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-family: 'Montserrat', sans-serif;
     color: #414E3E;
     line-height: 1.4;
     width: 291px;
+    height: 58px;
+    letter-spacing: .08rem;
 }
 .schedule-item {
     max-width: 291px;
@@ -285,8 +302,8 @@ input[type="email"] {
 /* Useful Info */
 .useful-info-container {
     display: flex;
-    height: 100vh;
-    width: 100vw;
+    height: auto;
+    width: 100%;
 }
 .useful-info-left {
     width: 50%;
@@ -295,7 +312,7 @@ input[type="email"] {
     padding-right: 10.8rem;
     color: #F1F1F1;
     padding-top: 70px;;
-    padding-bottom: 70px;
+    padding-bottom: 80px;
     flex: 1;
 }
 .useful-info-left h3 {
